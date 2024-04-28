@@ -1,24 +1,105 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      BIENVENIDO
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <h2>CURRICULUM</h2>
-  <ion-list>
-    <ion-item>
-      <ion-textarea label="Nombres y Apellidos" placeholder="María Iveth Cocha Ger"></ion-textarea>
-    </ion-item>
-    <ion-item>
-      <ion-textarea  label="Cedula" placeholder="1728141571"></ion-textarea>
-    </ion-item>
-    <ion-item>
-      <ion-textarea  label="Fecha de Nacimiento" placeholder="16 de Noviemnre del 2001"></ion-textarea>
-    </ion-item>
-  </ion-list>
+  <ion-toolbar>
+    <ion-title>Hoja de vida</ion-title>
+  </ion-toolbar>
+  <div class="centro">
+    <ion-avatar> 
+      <ion-img src="assets/photo.jpg"></ion-img>  
+    </ion-avatar>
+  </div>
+ 
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item-divider>
+        <ion-label> Información </ion-label>
+      </ion-item-divider>
+      <ion-list>
+        <ion-item-group>
+          <ion-item>
+            <ion-textarea label="Nombres y Apellidos" placeholder="María Iveth Cocha Ger"></ion-textarea>          
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="Cedula" placeholder="1728141571"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="Fecha de Nacimiento" placeholder="16 de Noviemnre del 2001"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="Dirección" placeholder="San Juan de Calderón"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="Telefono" placeholder="0991678664"></ion-textarea>
+          </ion-item>
+  
+  
+        </ion-item-group>
+      </ion-list>
+  
+  
+  
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item-divider>
+        <ion-label> Estudios </ion-label>
+      </ion-item-divider>
+      <ion-list>
+        <ion-item-group>
+          
+          <ion-item>
+            <ion-textarea label="Colegio Fiscal Eloy Alfaro" placeholder="Bachiller en Ciencias"></ion-textarea>          
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="SECAP" placeholder="Auxiliar Contable"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-textarea label="CesBank" placeholder="Cajera Bancaria"></ion-textarea>
+          </ion-item>
+        
+        <ion-item>
+          <ion-textarea label="Escuela Politécnica Nacional" placeholder="Desarrollo de Software (actualmente)"></ion-textarea>
+        </ion-item>
+        </ion-item-group> 
+      </ion-list>
+  
+  
+  
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item-divider>
+        <ion-label> Idiomas </ion-label>
+      </ion-item-divider>
+      <ion-list>
+        <ion-item-group>
+          
+          <ion-item>
+            <ion-textarea label="Ingles" placeholder="Intermedio"></ion-textarea>          
+          </ion-item>
+        </ion-item-group> 
+      </ion-list>
+  
+  
+  
+    </ion-card-content>
+  </ion-card>
+
+  
+  
+  
 
   <!-- <ion-header collapse="condense">
     <ion-toolbar>

@@ -1,0 +1,27 @@
+ion-item-divider {
+    --background: #3fc7d9;
+    --color: #fff;
+    --padding-start: 20px;
+    --padding-end: 20px;
+  }
+
+ion-title{
+    font-weight:bold;
+}
+ion-content{
+    --background: #d3d5e3;
+}
+ion-toolbar{
+    --background: #d3d5e3;
+    --color: #fff;
+    --text-align: center;
+}
+ion-avatar{
+    height: 150px;
+    width: 150px;
+}
+.centro{
+    display: flex; /* Utilizamos flexbox para centrar el contenido */
+  justify-content: center; /* Centramos el contenido horizontalmente */
+  align-items: center; /* Centramos el contenido verticalmente */
+}
